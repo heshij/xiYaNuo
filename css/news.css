@@ -1,0 +1,117 @@
+.content .main h1 {
+    height: 90px;
+    line-height: 90px;
+    background: url("../img/BrandDynamics.png") no-repeat center 0px;
+}
+
+.news_list {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.news_list ul {
+    width: 100%;
+    height: auto;
+}
+
+.news_list ul li {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 35px;
+    background-color: #f8f8f8;
+}
+
+.news_list ul li img {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.news_list ul li .text {
+    width: 873px;
+    height: 300px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.news_list ul li .text .date {
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+
+.news_list ul li .text i {
+    display: block;
+    width: 8px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #12abd7;
+}
+
+.news_list ul li .text span {
+    display: block;
+    width: 104px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    padding-right: 7px;
+    font-family: "微软雅黑";
+    color: #12abd7;
+    float: right;
+}
+
+.news_list ul li .text h2 {
+    margin-bottom: 24px;
+}
+
+.news_list ul li .text h2 > a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    color: #202020;
+    line-height: 24px;
+    letter-spacing: 3px;
+}
+
+.news_list ul li .text p {
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #666666;
+    line-height: 30px;
+}
+
+.news_list ul li .text .more {
+    display: block;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #12abd7;
+    margin-top: 24px;
+}
+
+.news_list ul li:hover {
+    background-color: #12abd7;
+}
+
+.news_list ul li:hover .text .date i {
+    background-color: #ffffff;
+}
+
+.news_list ul li:hover .text .date span {
+    color: #ffffff;
+}
+
+.news_list ul li:hover h2 > a {
+    color: #f8f8f8;
+}
+
+.news_list ul li:hover p {
+    color: #eeeeee;
+}
+
+.news_list ul li:hover .more {
+    color: #ffffff;
+}

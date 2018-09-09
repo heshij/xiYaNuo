@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script type="text/javascript" src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.source.js"></script>
+    <script type="text/javascript"
+            src="http://api.map.baidu.com/api?v=2.0&ak=6vvqoVROdWsq64FDVM0kaVO1F65oGOOR"></script>
+    <script src="js/map.js"></script>
+    <script type="text/javascript" src="js/value.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="w clearfix">
+        <div class="logo fl"><a href="index.html"><img src="img/logo.jpg" alt=""></a></div>
+        <div class="search fr">
+            <form action="" id="myform">
+                <input type="text" placeholder="请输入搜索关键词" value="请输入搜索关键词"><input type="submit" value="" class="btn">
+            </form>
+        </div>
+        <div class="nav fr">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li>
+                    <a href="about.html">关于我们</a>
+                    <ul>
+                        <li><a href="#">公司简介</a></li>
+                        <li><a href="#">发展历程</a></li>
+                        <li><a href="#">公司架构</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="product.html">产品中心</a>
+                    <ul>
+                        <li><a href="#">紧身系列</a></li>
+                        <li><a href="#">护具系列</a></li>
+                        <li><a href="#">特别推荐</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="news.html">新闻中心</a>
+                    <ul>
+                        <li><a href="#">品牌动态</a></li>
+                        <li><a href="#">行业资讯</a></li>
+                        <li><a href="#">媒体报道</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html" class="on">联系我们</a>
+                    <ul>
+                        <li><a href="#">留言专区</a></li>
+                        <li><a href="#">加入我们</a></li>
+                        <li><a href="#">营销网络</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="banner"><img src="img/contact.png" alt=""></div>
+<div class="content">
+    <div class="w clearfix">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#" class="on">留言专区</a></li>
+                <li><a href="#">加入我们</a></li>
+                <li><a href="#">营销网络</a></li>
+            </ul>
+        </div>
+        <div class="location">
+            <ul>
+                <li><span></span>当前位置：</li>
+                <li><a href="index.html">官网首页</a>&gt;</li>
+                <li class="on">留言专区</li>
+            </ul>
+        </div>
+        <div class="main">
+            <h1>留言专区<span></span></h1>
+            <form action="" class="msg" id="msg">
+                <div class="left fl">
+                    <label for="name">姓名：</label><input id="name" type="text" placeholder="请输入您的姓名..."
+                                                        value="请输入您的姓名...">
+                    <label for="phone_num">手机号码：</label><input id="phone_num" type="text" placeholder="请输入您的手机号码..."
+                                                               value="请输入您的手机号码...">
+                    <label for="email">邮箱：</label><input id="email" type="text" placeholder="请输入您的邮箱..."
+                                                         value="请输入您的邮箱...">
+                    <label for="address">地址：</label><input id="address" type="text" placeholder="请输入您的地址..."
+                                                           value="请输入您的地址...">
+                    <label for="zipCode">邮编：</label><input id="zipCode" type="text" placeholder="请输入您的邮编..."
+                                                           value="请输入您的邮编...">
+                </div>
+                <div class="right fr">
+                    <label for="text_msg">留言内容：</label><textarea id="text_msg"
+                                                                 placeholder="请输入您的留言内容...">请输入您的留言内容...</textarea>
+                    <label for="proving">验证码：</label>
+                    <div class="proving">
+                        <input type="text" id="proving" placeholder="请输入您的验证码..." value="请输入您的验证码..."><input
+                            type="submit" value="点击获取验证码" class="submit">
+                        <span></span>
+                        <input type="submit" value="提交" class="btn">
+                    </div>
+                </div>
+            </form>
+            <div class="map" id="map"></div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="top">
+        <div class="w">
+            <ul class="left fl">
+                <li>公司地址：广东省广州市自贸试验区（中心商务区）滨海华茂中心</li>
+                <li>门店地址：广东省广州市中心商务区塘沽福路碧海鸿庭底商D区9号</li>
+                <li>电话：022-38515885 1352486866</li>
+                <li>微信:CYARO813 （希亚诺运动用品）</li>
+                <li>E-mail:CYARO813@126.com</li>
+                <li>淘宝：CYARO希亚诺运动用品</li>
+            </ul>
+            <ul class="right fr">
+                <li>
+                    <img src="img/taobao_eq.png" alt="">
+                    希亚诺淘宝二维码
+                </li>
+                <li>
+                    <img src="img/weix_eq.png" alt="">
+                    微信公众号二维码
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="w">
+            <p>版权所有 粤ICP备1610923号-1 希亚诺运动用品有限公司</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $('#myform').Form();
+    $('#msg').Form();
+</script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+.content {
+    width: auto;
+    height: auto;
+}
+
+.banner {
+    width: auto;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+.banner img {
+    display: block;
+    width: 1920px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    float: left;
+}
+
+.content .sidebar {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.content .sidebar>ul {
+    width: 100%;
+    height: 50px;
+    margin-top: -25px;
+}
+
+.content .sidebar>ul li {
+    width: 400px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ffffff;
+
+    box-sizing: border-box;
+}
+
+.content .sidebar>ul li a {
+    display: block;
+    width: 400px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: #333333;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #eeeeee;
+}
+
+.content .sidebar>ul li .on {
+    background-color: #12abd7;
+    color: #ffffff;
+    border: 1px solid #12abd7;
+}
+
+.content .sidebar>ul li a:hover {
+    background-color: #12abd7;
+    color: #ffffff;
+    border: 1px solid #12abd7;
+}
+
+.content .location {
+    width: 289px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.content .location ul {
+    width: auto;
+    height: 20px;
+}
+
+.content .location ul li {
+    width: auto;
+    height: 13px;
+    line-height: 13px;
+    float: left;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #999999;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #12abd7;
+}
+
+.content .location ul li a {
+    font-family: "微软雅黑";
+    color: #999999;
+    padding-bottom: 3px;
+}
+
+.content .location ul li a:hover{
+    color: #12abd7;
+}
+
+.content .location ul li span {
+    width: 3px;
+    height: 12px;
+    background-color: #12abd7;
+    float: left;
+    margin-right: 7px;
+}
+
+.content .location ul .on {
+    color: #12abd7;
+}
+
+.content .main {
+    width: auto;
+    height: auto;
+}
+
+.content .main h1 {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    margin: 0 auto 30px auto;
+    font-size: 30px;
+    font-family: "微软雅黑";
+    color: #202020;
+    letter-spacing: 8px;
+}
+
+.content .main h1 span {
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: #12abd7;
+    margin: 0 auto;
+}
+
+.content .main .page {
+    width: auto;
+    height: 18px;
+    margin: 0 auto 50px auto;
+}
+
+.content .main .page ul {
+    width: 496px;
+    height: 18px;
+    line-height: 18px;
+    margin: 0 auto;
+}
+
+.content .main .page ul li {
+    float: left;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #666666;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 12px;
+    border: 1px solid #333333;
+}
+.content .main .page ul .first{
+    width: auto;
+    border: 0;
+}
+.content .main .page ul .prev{
+    width: auto;
+    border: 0;
+}
+.content .main .page ul .next{
+    width: auto;
+    border: 0;
+}
+.content .main .page ul .last{
+    width: auto;
+    border: 0;
+}
+.content .main .page ul .form{
+    width: auto;
+    border: 0;
+}
+.content .main .page ul li:first-child {
+    margin-left: 0;
+}
+
+.content .main .page ul li a {
+    display: block;
+    width: auto;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #666666;
+}
+
+.content .main .page ul li:hover a {
+    color: #12abd7;
+}
+
+.content .main .page ul .bor:hover{
+    background-color: #12abd7;
+    border: 1px solid #12abd7;
+}
+
+.content .main .page ul .bor:hover a {
+    color: #ffffff;
+}
+
+.content .main .page ul li input {
+    width: 28px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    border: 1px solid #202020;
+}
+
+.content .main .page ul .btn {
+    width: 40px;
+    height: 18px;
+    text-align: center;
+    border: 1px solid #333333;
+    margin-right: 0;
+    color: #666666;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.content .main .page ul .btn:hover {
+    background-color: #12abd7;
+    border: 1px solid #12abd7;
+    color: #ffffff;
+}
+
+.content .main .page ul .on {
+    background-color: #12abd7;
+    border: 1px solid #12abd7;
+}
+
+.content .main .page ul .on a {
+    color: #ffffff;
+}
+
+
+.flip {
+    width: 1200px;
+    height: 30px;
+    float: left;
+    margin: 0 auto 40px auto;
+}
+
+.flip .prev {
+    display: block;
+    float: left;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #cccccc;
+    padding-left: 40px;
+    box-sizing: border-box;
+    background: url("../img/pro_prev.png") no-repeat 0px 11px;
+}
+
+.flip .prev:hover {
+    color: #12abd7;
+    background: url("../img/pro_prev_hover.png") no-repeat 0px 11px;
+}
+
+.flip .next {
+    display: block;
+    float: right;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #cccccc;
+    padding-right: 40px;
+    box-sizing: border-box;
+    background: url("../img/pro_next.png") no-repeat 185px 11px;
+}
+
+.flip .next:hover {
+    color: #12abd7;
+    background: url("../img/pro_next_hover.png") no-repeat 185px 11px;
+}
